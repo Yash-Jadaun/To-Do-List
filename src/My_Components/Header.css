@@ -1,0 +1,19 @@
+.header-buttons {
+    margin-top: 15px; /* Space above the buttons */
+  }
+  
+  .header-button {
+    background-color: #007bff; /* Blue color for buttons */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding for button */
+    margin: 0 5px; /* Margin between buttons */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor change on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .header-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

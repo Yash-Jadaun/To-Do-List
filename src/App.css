@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #007bff; /* Blue color for header */
+  padding: 20px; /* Padding for header */
+  color: white;
+}
+
+.container {
+  margin: 20px auto; /* Center the container */
+  max-width: 600px; /* Limit the width of the container */
+  padding: 20px;
+  border: 2px solid #007bff; /* Border for the container */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+h3 {
+  color: #007bff; /* Blue color for the heading */
+}
+
+button {
+  margin-left: 10px;
+  background-color: #dc3545; /* Red color for delete button */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+footer {
+  background-color: #007bff; /* Blue color for footer */
+  padding: 10px;
+  color: white;
+  position: relative; /* Ensure it stays at the bottom */
+}
+
+input {
+  margin: 10px; /* Space between inputs */
+  padding: 8px;
+  width: calc(50% - 20px); /* Adjust width for better spacing */
+}
